@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+    background-image: url(./img/abstract-watch.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.stopwatch {
+    color:white;
+    text-align: center;
+    background: linear-gradient(to right bottom,rgb(204, 44, 204),hotpink);
+    
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 20px black ;
+    width: 300px;
+    margin-top: 25px;
+
+}
+
+#display {
+    font-size: 3em;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover{
+    color: wheat;
+    background-color: rgb(132, 182, 165);
+}
+
+#laps{
+    color: rgb(103, 27, 27);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
